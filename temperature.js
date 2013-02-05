@@ -11,7 +11,6 @@ function calculate() {
     var num = m[1];
     var type = m[2];
     num = parseFloat(num);
-    converted.innerHTML = num;
     if (type == 'c' || type == 'C') {
       result = (num * 9/5)+32;
       result = result.toFixed(1)+" Farenheit"
