@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>HTML 5 Pattern</title>
+<style type="text/css">
+#contenedor {
+     width:500px;
+   margin:0 auto;
+   padding-top:80px;
+      font-family: Arial, Helvetica, Sans-serif;
+    font-size:12px;
+    color:#999;
+}
+</style>
+</head>
+<body>
+<div id="contenedor">
+     <form>
+     <fieldset>
+     <p><label>Caracteres alfanuméricos:</label><input type="text" pattern="[a-zA-Z0-9]+" /></p>
+     <p><label>Letras:</label><input type="text" pattern="[a-zA-Z]+" /></p>
+     <p><label>Números:</label><input type="text" pattern="[0-9]+" /></p>
+     <p><label>Fecha (dd/mm/YYYYYY):</label><input type="text" pattern="(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.](19|20)\d\d" /></p>
+     <p><label>Email:</label><input type="text" pattern="[a-zA-Z0-9.+_-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9.-]+" /></p>
+     <input id="final" type="submit" value="Aceptar" />
+     </fieldset>
+     </form>
+</body>
+</html>
