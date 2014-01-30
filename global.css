@@ -6,3 +6,12 @@ body
  background-color:#b0c4de;  /* blue */
  font-size:large;
 }
+
+h1 {
+    font-weight: normal;
+    background: #3C5681;
+    padding: 5px 15px;
+    color: white;
+    display:inline-block;
+    border-radius: 10px 10px 10px 10px;
+}
