@@ -21,6 +21,8 @@
 
         <form id="formulario" onsubmit="calculate();">
 
+  mientras que en la rama `master` estaba fuera 
+
 * Además el `<input>` está controlado con el atributo `pattern` HTML5 de `<input>`:
 
         <input id="original"
