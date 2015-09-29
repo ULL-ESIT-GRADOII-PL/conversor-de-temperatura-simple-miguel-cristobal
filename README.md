@@ -17,4 +17,4 @@
 
 ### Ejecutar las pruebas
 
-* [tests/index.html](tests/index.html)
+* [http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/tests/index.html](http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/tests/index.html)
