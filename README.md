@@ -5,4 +5,4 @@ ETSII ULL Grado de Informatica
 
 ## Primera Práctica:
 
-Conversor en JavaScript de grados Celisus a Farenheit y viceversa
+Conversor en JavaScript de grados Celsius a Farenheit y viceversa
