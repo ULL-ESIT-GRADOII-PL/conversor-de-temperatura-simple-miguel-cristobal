@@ -9,7 +9,7 @@
 * Expresiones Regulares
 * Un poquito de CSS
 * Uso de Emmet (instale el plugin para su editor)
-* Uso de Mocha y Chai (no se incluye en esta version en la rama master)
+* Uso de Mocha y Chai 
 
 ### Despliegue en github.io
 
