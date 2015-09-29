@@ -1,14 +1,21 @@
-ETSII ULL Grado de Informatica
-Asignatura Procesadores de Lenguajes
-Primera Práctica:
+# ETSII ULL Grado de Informatica
 
-Conversor en JavaScript de grados Celsius a Farenheit y viceversa
+## Práctica: Conversor en JavaScript de grados Celsius a Farenheit y viceversa
 
-En la rama `html5pattern` el tag `<input>` se metió dentro de una form.
+### Que aprendemos
+
+* JavaScript básico
+* Expresiones Regulares
+* Uso de Emmet
+* Uso de Mocha y Chai
+
+### Diferencias con la versión en la rama `master`
+
+* En la rama `html5pattern` el tag `<input>` se metió dentro de una form.
 
         <form id="formulario" onsubmit="calculate();">
 
-Además el `<input>` está controlado con el atributo `pattern` HTML5 de `<input>`:
+* Además el `<input>` está controlado con el atributo `pattern` HTML5 de `<input>`:
 
         <input id="original"
                placeholder="32F"
@@ -17,7 +24,7 @@ Además el `<input>` está controlado con el atributo `pattern` HTML5 de `<input
                pattern="([-+]?\d+(?:\.\d*)?)\s*([fFcC])"
         />
 
-El fichero `pattern.html` tiene ejemplos de como usar el atributo `pattern`
+* El fichero `pattern.html` tiene ejemplos de como usar el atributo `pattern`
 
           <form>
             <fieldset>
@@ -30,4 +37,4 @@ El fichero `pattern.html` tiene ejemplos de como usar el atributo `pattern`
             </fieldset>
           </form>
 
-En esta rama en `temperature.js`se usa `alert` para enviar los mensajes en vez de insertarlos en la página con el método ìnnerHTML`.
+* En esta rama en `temperature.js` se usa `alert` para enviar los mensajes en vez de insertarlos en la página con el método `innerHTML`.
