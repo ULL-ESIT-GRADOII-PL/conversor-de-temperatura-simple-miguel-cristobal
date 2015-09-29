@@ -4,11 +4,11 @@ Primera Práctica:
 
 Conversor en JavaScript de grados Celsius a Farenheit y viceversa
 
-En la rama `html5pattern` el tag <input> se metió dentro de una form.
+En la rama `html5pattern` el tag `<input>` se metió dentro de una form.
 
         <form id="formulario" onsubmit="calculate();">
 
-Además el `<input>` está controlado con un HTML5 pattern:
+Además el `<input>` está controlado con el atributo `pattern` HTML5 de `<input>`:
 
         <input id="original"
                placeholder="32F"
