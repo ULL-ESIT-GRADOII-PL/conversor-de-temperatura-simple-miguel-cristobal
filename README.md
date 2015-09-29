@@ -15,3 +15,6 @@
 
 * [http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/](http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/)
 
+### Ejecutar las pruebas
+
+* [tests/index.html](tests/index.html)
