@@ -11,7 +11,14 @@
     <input id="original" placeholder="32F" size="50">
     <span class="output" id="converted"></span>
 
-    <script src="chai.js"></script>
+    <!-- 
+      <script src="chai.js"></script>
+      -->
+      <!--
+      <script src=" http://chaijs.com/chai.js"></script> 
+      -->
+      <!-- it works -->
+    <script src="../node_modules/chai/chai.js"></script> <!-- it works -->
     <script src="mocha.js"></script>
     <script src="../temperature.js"></script>
     <script>mocha.setup('tdd')</script>

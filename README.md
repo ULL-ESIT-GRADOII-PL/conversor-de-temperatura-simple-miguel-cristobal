@@ -12,6 +12,22 @@
 * Uso de Mocha y Chai 
 * Uso de Gulp
 
+### Diferencias con la versión en la rama `gh-pages`
+
+* En el fichero `tests/index.html` de la rama `chainode` se muestran diversas formas de cargar el fichero `chai.js`:
+
+     <!-- 
+        <script src="chai.js"></script>
+      -->
+      <!--
+        <script src=" http://chaijs.com/chai.js"></script> 
+      -->
+     <script src="../node_modules/chai/chai.js"></script> <!-- it works -->
+
+
+
+
+
 ### Despliegue en github.io
 
 * [http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/](http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/)
