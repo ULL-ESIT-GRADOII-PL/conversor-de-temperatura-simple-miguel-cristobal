@@ -16,13 +16,13 @@
 
 * En el fichero `tests/index.html` de la rama `chainode` se muestran diversas formas de cargar el fichero `chai.js`:
 
-     <!-- 
-        <script src="chai.js"></script>
-      -->
-      <!--
-        <script src=" http://chaijs.com/chai.js"></script> 
-      -->
-     <script src="../node_modules/chai/chai.js"></script> <!-- it works -->
+         <!-- 
+            <script src="chai.js"></script>
+          -->
+          <!--
+            <script src=" http://chaijs.com/chai.js"></script> 
+          -->
+         <script src="../node_modules/chai/chai.js"></script> <!-- it works -->
 
 
 
