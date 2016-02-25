@@ -13,11 +13,11 @@
         <th>Enter  Temperature (examples: 32F, 45C, -2.5f):</th>
         <td>
           <form id="formulario" onsubmit="calculate();">
-          <input id="original" 
-                 placeholder="32F" 
+          <input id="original"
+                 placeholder="32F"
                  size="50"
                  title = "Escribe un número seguido de una de las letras 'F' o 'C'"
-                 pattern="([-+]?\d+(?:\.\d*)?)\s*([fFcC])"
+                 pattern="^(\s*[-+]?\d+(?:\.\d*)?(?:e[+-]?\d+)?)\s*([fF]([aA]([rR]([eE]([nN]([hH]([eE]([iI]([tT])?)?)?)?)?)?)?)?|[cC]([eE]([lL]([sS]([iI]([uU]([sS])?)?)?)?)?)?)\s*$"
           />
           </form>
         </td>

@@ -14,7 +14,7 @@
 
 ### Despliegue en github.io
 
-* [http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/](http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/)
+* [http://ull-esit-gradoii-pl.github.io/conversor-de-temperatura-simple-miguel-cristobal/](http://ull-esit-gradoii-pl.github.io/conversor-de-temperatura-simple-miguel-cristobal/)
 
 ### Diferencias con la versión en la rama `master`
 
@@ -22,7 +22,7 @@
 
         <form id="formulario" onsubmit="calculate();">
 
-  mientras que en la rama `master` estaba fuera 
+  mientras que en la rama `master` estaba fuera
 
 * Además el `<input>` está controlado con el atributo `pattern` HTML5 de `<input>`:
 
