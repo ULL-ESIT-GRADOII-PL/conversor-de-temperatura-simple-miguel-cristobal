@@ -2,7 +2,12 @@ th, td{
   vertical-align: middle;
   text-align: center;
 }
-#converted{
+.converted{
+  color: #90B0FF;
+  font-weight: bold;
+  font-size:large;
+}
+.error{
   color: red;
   font-weight: bold;
   font-size:large;
@@ -22,14 +27,41 @@ body
   font-size: 14px;
   color: #FFF;
 }
-.contenedor{
+.contenedorcabecera{
   padding: 10px;
   border: 5px;
   background-color: #1C1C1C;
+  margin: auto;
+  width: 800px;
+  text-align: center;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+.contenedorformulario{
+  padding: 10px;
+  border: 5px;
+  width: 800px;
+  background-color: #1C1C1C;
+  margin: auto;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  border-radius: 1em;
+  height: 90px;
+}
+.titletable{
+  margin-left:auto;
+  margin-right:auto;
+  vertical-align: top;
 }
 .title{
   color: #00BFFF;
   font-size: 40px;
+}
+a:visited{
+  color: #00BFFF;
+}
+a:link {
+    color: #00BFFF;
 }
 .logo{
     height: 100px;
