@@ -1,29 +1,68 @@
-th, td      {
-               vertical-align: top;
-               text-align: right;
-               font-size:large;
-               // border: 1px solid black;
-            }     /* Don't center table cells  */
-#converted  { color: red; font-weight: bold; font-size:large;          }     /* Calculated values in bold */
-input       {
-              text-align: right;       /* Align input to the right  */
-              border: none;
-              border-radius: 20px 20px 20px 20px;
-              padding: 5px  5px;
-              font-size:large;       }
+th, td{
+  vertical-align: middle;
+  text-align: center;
+}
+.converted{
+  color: #90B0FF;
+  font-weight: bold;
+  font-size:large;
+}
+.error{
+  color: red;
+  font-weight: bold;
+  font-size:large;
+}
+input{
+
+}
 body
 {
- background-color:#b0c4de;  /* blue */
- font-size:large;
- font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+  background-color: #303030;
+  font-family: Arial;
+  font-size: 14px;
+  color: #FFF;
 }
-
-h1 {
-    font-weight: normal;
-    font-family: "Brush Script MT", cursive;
-    background: #3C5681;
-    padding: 5px 15px;
-    color: white;
-    display:inline-block;
-    border-radius: 10px 10px 10px 10px;
+.subtitle{
+  font-family: Arial;
+  font-size: 14px;
+  color: #FFF;
+}
+.contenedorcabecera{
+  padding: 10px;
+  border: 5px;
+  background-color: #1C1C1C;
+  margin: auto;
+  width: 800px;
+  text-align: center;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+.contenedorformulario{
+  padding: 10px;
+  border: 5px;
+  width: 800px;
+  background-color: #1C1C1C;
+  margin: auto;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  border-radius: 1em;
+  height: 90px;
+}
+.titletable{
+  margin-left:auto;
+  margin-right:auto;
+  vertical-align: top;
+}
+.title{
+  color: #00BFFF;
+  font-size: 40px;
+}
+a:visited{
+  color: #00BFFF;
+}
+a:link {
+    color: #00BFFF;
+}
+.logo{
+    height: 100px;
 }
